@@ -17,13 +17,13 @@
 .header {
   width: 90%;
   height: 20%;
-  font-size: 3rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-size: 4rem;
+  font-family: "Tangerine", sans-serif;
   color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
+  text-shadow: 3px 3px 3px aqua;
 }
 
 .search {
@@ -124,7 +124,8 @@ select option {
 }
 
 .h1Style {
-  color: rgb(123, 0, 255);
+  color: orangered;
+  text-shadow: 2px 2px black;
 }
 
 .liStyle {
