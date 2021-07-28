@@ -123,6 +123,10 @@ select option {
   color: rgb(0, 255, 30);
 }
 
+.h1Style {
+  color: rgb(123, 0, 255);
+}
+
 .liStyle {
   color: rgb(221, 255, 0);
 }
@@ -139,6 +143,6 @@ select option {
   .btn {
     font-size: 0.7rem;
     width: 20%;
-    padding: 6px;
+    padding: 5px;
   }
 }
