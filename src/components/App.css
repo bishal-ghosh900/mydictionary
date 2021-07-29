@@ -126,7 +126,7 @@ select option {
 .h1Style {
   color: orangered;
   font-size: 5rem;
-  text-shadow: 3px 3px 10px orangered;
+  text-shadow: 3px 3px black;
   font-family: "Tangerine", sans-serif;
 }
 

@@ -1,9 +1,7 @@
 import React, { useEffect } from "react";
 
 function Details({ data, message, loading }) {
-  useEffect(() => {
-    console.log(data);
-  }, [data, message]);
+  useEffect(() => {}, [data, message]);
 
   return (
     <div className="details">

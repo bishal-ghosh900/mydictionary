@@ -17,7 +17,6 @@ function Search(props) {
         return res.json();
       })
       .then((data) => {
-        console.log(data);
         if (Array.isArray(data)) {
           setData(data[0]);
           setMessage("");
