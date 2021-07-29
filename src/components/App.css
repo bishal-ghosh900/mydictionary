@@ -125,7 +125,9 @@ select option {
 
 .h1Style {
   color: orangered;
-  text-shadow: 2px 2px black;
+  font-size: 5rem;
+  text-shadow: 3px 3px 10px orangered;
+  font-family: "Tangerine", sans-serif;
 }
 
 .liStyle {

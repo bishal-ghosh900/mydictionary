@@ -9,8 +9,10 @@ function Search(props) {
   const [loading, setLoading] = useState(false);
 
   const doFetch = () => {
+    let tempText = text;
+    setText("");
     setLoading(true);
-    fetch(`https://api.dictionaryapi.dev/api/v2/entries/${option}/${text}`)
+    fetch(`https://api.dictionaryapi.dev/api/v2/entries/${option}/${tempText}`)
       .then((res) => {
         return res.json();
       })
